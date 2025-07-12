@@ -13,7 +13,7 @@ export default function Footer() {
                 <hr className='border-gray-300/20' />
                 <div className='mt-20 grid grid-cols-3 max-[900px]:grid-cols-2 max-[600px]:grid-cols-1 gap-10'>
                     <div className='grid gap-5'>
-                        <h1 className='text-2xl font-dmSerifText'>About Morenii</h1>
+                        <h1 className='text-2xl font-dmSerifText'>About Buniee</h1>
                         <p className='text-primary font-poppins' style={{
                             lineHeight: 2
                         }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore dicta quis eum architecto porro provident veritatis incidunt quaerat repudiandae ducimus! Sit nostrum repellendus adipisci dolor quibusdam voluptate quod voluptatum cum?</p>
@@ -39,7 +39,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <p className='text-center mt-20 bottom-10 flex justify-center items-center text-gray-500 '>© Copyright Monica 2025</p>
+            <p className='text-center mt-20 bottom-10 flex justify-center items-center text-gray-500 '>© Copyright Buniee 2025</p>
         </section>
     )
 }

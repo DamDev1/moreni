@@ -7,7 +7,7 @@ export default function Hero() {
     <div className='px-[4rem] py-[3rem] max-[900px]:px-[2rem] mt-[5rem] max-[900px]:mt-0'>
       <div className='grid grid-cols-3 max-[900px]:flex max-[900px]:flex-col gap-10 '>
         <div className='w-full col-span-2'>
-          <h1 className='text-xl text-primary relative after:absolute after:w-[20%] after:h-[2px] after:-left-[22%] after:top-3.5 after:bg-[#F1A63C]'>Hello, I&apos;m Moreni</h1>
+          <h1 className='text-xl text-primary relative after:absolute after:w-[20%] after:h-[2px] after:-left-[22%] after:top-3.5 after:bg-[#F1A63C]'>Hello, I&apos;m Buniee</h1>
           <div className=' mt-4 font-dmSerifText text-8xl max-[900px]:text-7xl max-[700px]:text-6xl max-[500px]:text-4xl max-[300px]:3xl'>
             <h1
               className=" text-primary hero-text"

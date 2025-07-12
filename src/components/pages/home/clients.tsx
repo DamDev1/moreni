@@ -5,7 +5,7 @@ export default function Clients() {
     <section className='bg-[#FFFFFF] px-[4rem] py-[10rem] max-[900px]:px-[2rem] max-[900px]:mt-0 '>
       <div className='grid grid-cols-2 max-[900px]:grid-cols-1 max-[900px]:gap-[5rem]'>
         <div>
-          <h1 className='text-black'>Expertise</h1>
+          <h1 className='font-poppins mb-4 text-orange-600 font-semibold'>Expertise</h1>
           <div className='grid gap-10'>
             <h1 className='text-black font-dmSerifText service-text'>
               I have had the <br /> privilege of <br /> working with <br /> these incredible <br /> brands.
