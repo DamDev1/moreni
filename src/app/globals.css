@@ -1,15 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #202321;
   --foreground: #171717;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: #FEF6E6;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-dmSerifText: var(--font-dm-serif-text);
+  --font-poppins:var(--font-poppins)
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,3 +27,68 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.hero-text {
+  font-size: clamp(5rem, 7vw, 11.6rem);
+  line-height: 1;
+  margin-top: 0;
+}
+
+.hero-image {
+  z-index: 2;
+  width: max(440px, 10vw);
+  margin: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  aspect-ratio: 2/2.5;
+  vertical-align: bottom;
+  box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.content-imgbg {
+  aspect-ratio: 1/1;
+  width: 25vw;
+  transform: translate(-40%, 0);
+  opacity: 0.25;
+  grid-column: 1/span 5;
+  grid-row: 1/span 1;
+  z-index: -1;
+}
+
+.about-text,
+.service-text{
+   font-size: clamp(4rem, 4vw, 11.6rem);
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .hero-text {
+    font-size: clamp(3rem, 10vw, 9em);
+  }
+
+  .hero-text br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content-imgbg {
+    grid-column: 1/span 4;
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-text, .about-text, .service-text {
+    font-size: clamp(2rem, 10vw, 9em);
+  }
+
+  .hero-text br {
+    display: none;
+  }
+}
+
+
+/*  about section */
